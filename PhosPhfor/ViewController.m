@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+    @property (nonatomic, retain) IBOutlet UIImageView *flickrImage;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://c1.staticflickr.com/3/2811/33810153212_f0b5710193_b_d.jpg"]]];
+    
+    
+    [_flickrImage setImage:image];
+
+    
+    
+    
 }
 
 
