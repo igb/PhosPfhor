@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSArray* images;
+    int count;
+    NSTimer* timer;
 
+}
+
+- (UIImageView*)getImageView;
 
 @end
 

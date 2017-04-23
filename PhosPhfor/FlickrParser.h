@@ -10,4 +10,8 @@
 
 @interface FlickrParser : NSObject
 
+- (NSArray*)getPhotos;
+
+
+
 @end

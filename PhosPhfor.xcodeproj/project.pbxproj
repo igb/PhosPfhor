@@ -17,6 +17,9 @@
 		10F097AD1EA496F500EBF893 /* FlickrParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097AC1EA496F500EBF893 /* FlickrParser.m */; };
 		10F097AE1EA496F500EBF893 /* FlickrParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097AC1EA496F500EBF893 /* FlickrParser.m */; };
 		10F097AF1EA496F500EBF893 /* FlickrParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097AC1EA496F500EBF893 /* FlickrParser.m */; };
+		10F097B21EA714E900EBF893 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097B11EA714E900EBF893 /* FlickrPhoto.m */; };
+		10F097B31EA714E900EBF893 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097B11EA714E900EBF893 /* FlickrPhoto.m */; };
+		10F097B41EA714E900EBF893 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F097B11EA714E900EBF893 /* FlickrPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		10F0979F1EA493FC00EBF893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F097AB1EA496F500EBF893 /* FlickrParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrParser.h; sourceTree = "<group>"; };
 		10F097AC1EA496F500EBF893 /* FlickrParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrParser.m; sourceTree = "<group>"; };
+		10F097B01EA714E900EBF893 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		10F097B11EA714E900EBF893 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,8 @@
 				10F0977B1EA493FB00EBF893 /* Supporting Files */,
 				10F097AB1EA496F500EBF893 /* FlickrParser.h */,
 				10F097AC1EA496F500EBF893 /* FlickrParser.m */,
+				10F097B01EA714E900EBF893 /* FlickrPhoto.h */,
+				10F097B11EA714E900EBF893 /* FlickrPhoto.m */,
 			);
 			path = PhosPhfor;
 			sourceTree = "<group>";
@@ -279,6 +286,7 @@
 				10F097831EA493FC00EBF893 /* ViewController.m in Sources */,
 				10F097AD1EA496F500EBF893 /* FlickrParser.m in Sources */,
 				10F097801EA493FC00EBF893 /* AppDelegate.m in Sources */,
+				10F097B21EA714E900EBF893 /* FlickrPhoto.m in Sources */,
 				10F0977D1EA493FC00EBF893 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F097B31EA714E900EBF893 /* FlickrPhoto.m in Sources */,
 				10F097931EA493FC00EBF893 /* PhosPhforTests.m in Sources */,
 				10F097AE1EA496F500EBF893 /* FlickrParser.m in Sources */,
 			);
@@ -296,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F097B41EA714E900EBF893 /* FlickrPhoto.m in Sources */,
 				10F0979E1EA493FC00EBF893 /* PhosPhforUITests.m in Sources */,
 				10F097AF1EA496F500EBF893 /* FlickrParser.m in Sources */,
 			);
